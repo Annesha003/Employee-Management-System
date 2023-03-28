@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Employee Entry</h1>
+<p id="time">Current Time is : </p>
+<form action="insertservlet"  method="post">
+<table>
+<tr><td>Employee ID: </td><td><input type="text" name="empiD"></td></tr>
+<tr><td>Employee Name:</td><td><input type="text" name="empName"></td></tr>
+<tr><td>Designation: </td><td><input type="text" name="desig"></td></tr>
+<tr><td>Salary:</td><td><input type="text" name="salary"></td></tr>
+<tr ><td></td><td><input type="submit" value="register"></td></tr>
+</table>
+</form>
+<script type="text/javascript">
+	document.getElementById('time').innerText += new Date();
+</script>
+<h4><a href="viewservlet">All Employee List</a></h4>
+</body>
+</html>
+</body>
+</html>
